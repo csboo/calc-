@@ -1,21 +1,35 @@
-# calcplusplus
-A very simple command line tool to solve basic math expressions, written in c++
+# CalcPlusPlus
 
-# how to build
-g++ -o calc++ ./calc.cpp
+**CalcPlusPlus** is a simple C++ command-line tool for solving basic mathematical expressions.
 
-# how to use
-type 
-~ calc++ 
-to get a brief help message
+## Features
+- Supports the following operations:
+  - Addition (`+`)
+  - Subtraction (`-`)
+  - Multiplication (`*`)
+  - Division (`/`)
+  - Exponentiation (Power) (`^`)
+  - Parentheses for grouping
 
-~ calc++ "expression"
-where 'expression' can be one of many mathematical expressions.
+## Requirements
+- C++ compiler (e.g., g++)
 
-# supported currently
-- addition "+"
-- subtraction "-"
-- multiplication "*"
-- division "/"
-- exponentiation (power) "^"
-- parentheses
+## Build Instructions
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/csboo/calcplusplus.git
+    ```
+2. Compile the code:
+    ```bash
+    g++ -o calc++ calc++.cpp
+    ```
+
+## Usage
+- Display help:
+    ```bash
+    ./calc++
+    ```
+- Calculate an expression:
+    ```bash
+    ./calc++ "2 + 2 * 3"
+    ```
